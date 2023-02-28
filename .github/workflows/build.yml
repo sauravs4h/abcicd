@@ -1,7 +1,7 @@
 on : push
 jobs : 
     first-job:
-      runs-on : macos-latest
+      runs-on : windowos-latest
       steps :
         - run : node --version
         - run : npm --version
